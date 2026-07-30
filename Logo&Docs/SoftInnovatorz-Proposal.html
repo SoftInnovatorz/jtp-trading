@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SoftInnovatorz — Web Development &amp; Digital Marketing Proposal</title>
+<style>
+  :root{
+    --navy:#122647;
+    --navy-light:#1c3a6b;
+    --accent:#2f7de1;
+    --accent-light:#eaf2fd;
+    --text:#1f2937;
+    --muted:#5b6472;
+    --border:#dfe4ea;
+    --bg:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family:'Segoe UI', Calibri, Arial, sans-serif;
+    color:var(--text);
+    background:#f4f6f9;
+    margin:0;
+    padding:0;
+    line-height:1.55;
+  }
+  .page{
+    max-width:900px;
+    margin:32px auto;
+    background:var(--bg);
+    box-shadow:0 2px 18px rgba(0,0,0,0.08);
+    padding:0 0 40px 0;
+  }
+  header.brand{
+    background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 100%);
+    color:#fff;
+    padding:40px 48px 32px 48px;
+    border-radius:0;
+  }
+  header.brand .top-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+  .logo-block .name{
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:0.5px;
+  }
+  .logo-block .tagline{
+    font-size:13px;
+    color:#c9d9f2;
+    margin-top:4px;
+  }
+  .contact-block{
+    text-align:right;
+    font-size:13px;
+    color:#dbe6fa;
+  }
+  .contact-block div{margin-bottom:2px;}
+  .doc-title{
+    margin-top:28px;
+    font-size:20px;
+    font-weight:600;
+    border-top:1px solid rgba(255,255,255,0.25);
+    padding-top:16px;
+  }
+  .doc-meta{
+    font-size:13px;
+    color:#c9d9f2;
+    margin-top:6px;
+  }
+  section{
+    padding:28px 48px;
+  }
+  h2.section-title{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:0.6px;
+    color:var(--accent);
+    border-bottom:2px solid var(--accent-light);
+    padding-bottom:8px;
+    margin-bottom:18px;
+  }
+  p{margin:0 0 12px 0;}
+  .intro p{color:var(--muted);}
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:8px;
+    font-size:14px;
+  }
+  th{
+    background:var(--accent-light);
+    color:var(--navy);
+    text-align:left;
+    padding:10px 12px;
+    font-weight:600;
+    border:1px solid var(--border);
+  }
+  td{
+    padding:10px 12px;
+    border:1px solid var(--border);
+    vertical-align:top;
+  }
+  td.price{
+    white-space:nowrap;
+    font-weight:600;
+    color:var(--navy);
+  }
+  .service-block{margin-bottom:26px;}
+  .service-block h3{
+    font-size:15px;
+    color:var(--navy);
+    margin:0 0 8px 0;
+  }
+  .note{
+    font-size:12.5px;
+    color:var(--muted);
+    font-style:italic;
+    margin-top:4px;
+  }
+  .placeholder-flag{
+    display:inline-block;
+    background:#fff4e0;
+    color:#8a5a00;
+    font-size:11px;
+    font-weight:600;
+    padding:2px 8px;
+    border-radius:10px;
+    margin-left:8px;
+    vertical-align:middle;
+  }
+  ul{margin:0 0 12px 0; padding-left:20px;}
+  li{margin-bottom:4px;}
+  .terms-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+  }
+  .terms-grid .col h4{
+    font-size:13.5px;
+    color:var(--navy);
+    margin:0 0 8px 0;
+  }
+  .highlight-box{
+    background:var(--accent-light);
+    border-left:4px solid var(--accent);
+    padding:14px 18px;
+    border-radius:4px;
+    font-size:13.5px;
+    color:var(--navy);
+    margin-bottom:16px;
+  }
+  .signature-row{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+    gap:40px;
+  }
+  .sig-col{flex:1;}
+  .sig-line{
+    border-bottom:1px solid var(--text);
+    height:48px;
+  }
+  .sig-label{
+    font-size:12.5px;
+    color:var(--muted);
+    margin-top:6px;
+  }
+  footer{
+    text-align:center;
+    font-size:12px;
+    color:var(--muted);
+    padding:20px 48px 0 48px;
+  }
+  @media print{
+    body{background:#fff;}
+    .page{box-shadow:none;margin:0;max-width:100%;}
+    section{padding:20px 36px;}
+    header.brand{padding:28px 36px 22px 36px;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="brand">
+    <div class="top-row">
+      <div class="logo-block">
+        <div class="name">SoftInnovatorz</div>
+        <div class="tagline">Web Development &amp; Digital Growth Solutions</div>
+      </div>
+      <div class="contact-block">
+        <div>sheikhmaaz01@gmail.com</div>
+        <div>0300-1234567</div>
+      </div>
+    </div>
+    <div class="doc-title">Service Proposal &amp; Pricing Structure</div>
+    <div class="doc-meta">Prepared for: <strong>[Client / Company Name]</strong> &nbsp;|&nbsp; Date: 23 July 2026 &nbsp;|&nbsp; Valid for: 15 days from issue</div>
+  </header>
+
+  <section class="intro">
+    <h2 class="section-title">Introduction</h2>
+    <p>Thank you for considering SoftInnovatorz for your web development and digital marketing needs. Below is a complete breakdown of the services we offer along with our pricing structure, timelines, and terms — from your initial website build all the way through to ongoing maintenance and marketing support.</p>
+    <p>All rates listed below are <strong>estimated starting prices</strong> and may vary based on final requirements, design complexity, and number of revisions. A detailed quote will be confirmed once your specific requirements are finalized.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">1. Static Website (Informational)</h2>
+    <div class="service-block">
+      <p>A clean, responsive multi-page website ideal for businesses that want an online presence to showcase their services, portfolio, or contact information — no online ordering functionality.</p>
+      <table>
+        <tr><th>Package</th><th>What's Included</th><th>Price (PKR)</th></tr>
+        <tr>
+          <td>Basic</td>
+          <td>Up to 5 pages (Home, About, Services, Gallery, Contact), mobile responsive, contact form</td>
+          <td class="price">25,000 – 40,000</td>
+        </tr>
+        <tr>
+          <td>Standard</td>
+          <td>Up to 8 pages, basic SEO setup, Google Maps integration, social media links</td>
+          <td class="price">40,000 – 60,000</td>
+        </tr>
+        <tr>
+          <td>Additional Page</td>
+          <td>Per extra page beyond the package</td>
+          <td class="price">3,000 – 5,000</td>
+        </tr>
+      </table>
+      <div class="note">Placeholder rates — adjust to your actual pricing before sending. <span class="placeholder-flag">EDITABLE</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">2. Domain Registration (For E-commerce / Business Sites)</h2>
+    <div class="service-block">
+      <p>If required, we assist with domain name search, purchase, and initial DNS configuration on your behalf.</p>
+      <table>
+        <tr><th>Service</th><th>Details</th><th>Price (PKR)</th></tr>
+        <tr>
+          <td>Domain Purchase Assistance</td>
+          <td>.com / .com.pk / other extensions — actual registrar cost + handling</td>
+          <td class="price">Actual cost + 1,000 – 2,000 service fee</td>
+        </tr>
+        <tr>
+          <td>DNS &amp; Email Setup</td>
+          <td>Pointing domain to hosting, basic email setup (e.g., info@yourdomain.com)</td>
+          <td class="price">2,000 – 4,000</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">3. Dynamic / E-commerce Website with CMS</h2>
+    <div class="service-block">
+      <p>A fully functional online store or dynamic website built on a Content Management System (e.g., WordPress/WooCommerce or Shopify), giving you full control to manage products, orders, and content yourself.</p>
+      <table>
+        <tr><th>Package</th><th>What's Included</th><th>Price (PKR)</th></tr>
+        <tr>
+          <td>Starter E-commerce</td>
+          <td>Up to 20 products, CMS admin panel, basic payment gateway (COD / bank transfer), mobile responsive</td>
+          <td class="price">80,000 – 120,000</td>
+        </tr>
+        <tr>
+          <td>Standard E-commerce</td>
+          <td>Up to 100 products, online payment gateway integration, inventory management, order tracking</td>
+          <td class="price">130,000 – 200,000</td>
+        </tr>
+        <tr>
+          <td>Advanced / Custom</td>
+          <td>Unlimited products, custom features, third-party integrations, advanced UI/UX</td>
+          <td class="price">200,000+ (custom quote)</td>
+        </tr>
+      </table>
+      <div class="note">Hosting and SSL certificate costs (if not already available) are billed separately at actual cost. <span class="placeholder-flag">EDITABLE</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">4. Data Upload Service (CMS / E-commerce Catalog)</h2>
+    <div class="service-block">
+      <p>For clients who prefer we handle product data entry — including images, descriptions, prices, and categorization — into the CMS.</p>
+      <table>
+        <tr><th>Package</th><th>Details</th><th>Price (PKR)</th></tr>
+        <tr>
+          <td>Per Product</td>
+          <td>Title, description, price, images, category tagging</td>
+          <td class="price">30 – 80 / product</td>
+        </tr>
+        <tr>
+          <td>Bulk Package (100 products)</td>
+          <td>Discounted bundle rate for bulk catalog upload</td>
+          <td class="price">5,000 – 7,000</td>
+        </tr>
+        <tr>
+          <td>Bulk Package (500 products)</td>
+          <td>Discounted bundle rate for large catalogs</td>
+          <td class="price">20,000 – 28,000</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">5. Digital Marketing (Facebook, Instagram &amp; Other Platforms)</h2>
+    <div class="service-block">
+      <p>Ongoing social media management and promotion to help grow your brand's reach and drive traffic/sales to your new website.</p>
+      <table>
+        <tr><th>Package</th><th>What's Included</th><th>Price (PKR / month)</th></tr>
+        <tr>
+          <td>Basic</td>
+          <td>Account setup/optimization, content calendar, 8–10 posts/month, no ad spend management</td>
+          <td class="price">15,000 – 20,000</td>
+        </tr>
+        <tr>
+          <td>Standard</td>
+          <td>Everything in Basic + paid ad campaign setup &amp; management (FB/Instagram Ads)</td>
+          <td class="price">25,000 – 35,000</td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>Everything in Standard + reels/short-video content, analytics reporting, engagement management</td>
+          <td class="price">40,000 – 55,000</td>
+        </tr>
+      </table>
+      <div class="note">Ad spend budget (amount paid directly to Facebook/Instagram for promotions) is separate from the management fee and set according to client's budget. <span class="placeholder-flag">EDITABLE</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">6. Post-Launch Website Maintenance</h2>
+    <div class="service-block">
+      <p>Once your website goes live, ongoing maintenance ensures it stays secure, updated, and running smoothly.</p>
+      <table>
+        <tr><th>Package</th><th>What's Included</th><th>Price (PKR / month)</th></tr>
+        <tr>
+          <td>Basic</td>
+          <td>Uptime monitoring, security patches, regular backups</td>
+          <td class="price">5,000 – 8,000</td>
+        </tr>
+        <tr>
+          <td>Standard</td>
+          <td>Everything in Basic + minor content updates (text/images), bug fixes</td>
+          <td class="price">10,000 – 15,000</td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>Everything in Standard + priority support, small feature additions, monthly performance report</td>
+          <td class="price">18,000 – 25,000</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Estimated Timeline</h2>
+    <table>
+      <tr><th>Deliverable</th><th>Estimated Duration</th></tr>
+      <tr><td>Static Informational Website</td><td>7 – 12 working days</td></tr>
+      <tr><td>Domain Purchase &amp; Setup</td><td>1 – 2 working days</td></tr>
+      <tr><td>Dynamic / E-commerce Website with CMS</td><td>3 – 5 weeks (depending on scope)</td></tr>
+      <tr><td>Data Upload Service</td><td>Depends on catalog size, typically 3 – 10 working days</td></tr>
+      <tr><td>Marketing Setup (initial)</td><td>3 – 5 working days to go live, ongoing thereafter</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2 class="section-title">Payment Terms</h2>
+    <div class="highlight-box">
+      50% advance payment to begin work, remaining 50% due upon completion and before final handover/domain-live transfer. Monthly services (marketing &amp; maintenance) are billed in advance at the start of each month.
+    </div>
+    <div class="terms-grid">
+      <div class="col">
+        <h4>What's Included</h4>
+        <ul>
+          <li>Up to 2 rounds of design revisions</li>
+          <li>Basic on-page SEO setup</li>
+          <li>Mobile-responsive design</li>
+          <li>1 month of free bug-fix support post-launch</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Not Included (Billed Separately)</h4>
+        <ul>
+          <li>Hosting &amp; domain renewal costs (annual)</li>
+          <li>Paid advertising budget (FB/Instagram ad spend)</li>
+          <li>Premium plugins/themes/stock images, if required</li>
+          <li>Extensive revisions beyond agreed scope</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Notes</h2>
+    <ul>
+      <li>All prices are quoted in Pakistani Rupees (PKR) and are subject to change based on final project scope.</li>
+      <li>Website ownership (files, CMS access, and domain) is fully transferred to the client upon full and final payment.</li>
+      <li>This proposal is valid for 15 days from the date of issue.</li>
+      <li>A formal invoice will be shared separately once the scope is finalized and agreed upon.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Acceptance</h2>
+    <p>By signing below, the client agrees to the services and pricing structure outlined in this proposal.</p>
+    <div class="signature-row">
+      <div class="sig-col">
+        <div class="sig-line"></div>
+        <div class="sig-label">Client Name &amp; Signature &nbsp;|&nbsp; Date</div>
+      </div>
+      <div class="sig-col">
+        <div class="sig-line"></div>
+        <div class="sig-label">SoftInnovatorz Representative &nbsp;|&nbsp; Date</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    SoftInnovatorz &nbsp;|&nbsp; sheikhmaaz01@gmail.com &nbsp;|&nbsp; 0300-1234567
+  </footer>
+
+</div>
+</body>
+</html>
