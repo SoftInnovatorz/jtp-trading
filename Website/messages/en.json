@@ -1,0 +1,285 @@
+{
+  "common": {
+    "seeMore": "See More",
+    "viewOnMap": "View on Google Maps"
+  },
+  "meta": {
+    "siteName": "JTP Trading Co., Ltd.",
+    "titleSuffix": "JTP Trading",
+    "home": { "title": "JTP Trading | Used Clothing & Leather Wholesale, OEM Production", "description": "JTP Trading is a Kobe-based wholesaler of used clothing and leather goods, and an OEM manufacturer leveraging our production base in Pakistan and Thailand for low-cost, small-lot orders." },
+    "business": { "title": "Business | Used Clothing & Leather Wholesale", "description": "Used clothing sourced from Pakistan and leather products made from premium lamb leather. Custom remakes and resizing available." },
+    "trading": { "title": "Global Operations | Japan, Thailand & Pakistan", "description": "Our head office in Kobe, our office in Bangkok, and our own factory in Karachi — a trade network connecting three countries." },
+    "oem": { "title": "OEM Production | Small-Lot Leather & Vintage Remake Manufacturing", "description": "OEM production available from as few as 50 pieces. Full support from planning to inspection, customs clearance, and delivery." },
+    "company": { "title": "Company | JTP Trading Co., Ltd.", "description": "Make the world happy from Kobe. Learn about JTP Trading's mission, message from our president, and company profile." },
+    "contact": { "title": "Contact Us", "description": "Get in touch about used clothing wholesale, leather wholesale, or OEM production." }
+  },
+  "nav": {
+    "home": "Home",
+    "business": "Business",
+    "trading": "Trading",
+    "oem": "OEM",
+    "company": "Company",
+    "contact": "Contact",
+    "onlineStore": "Online Store"
+  },
+  "header": {
+    "phone": "078-646-8077",
+    "hours": "10:00-18:00 (Closed Sat, Sun & Holidays)",
+    "tagline": "Deals In Textile And Leather Apparel"
+  },
+  "languagePopup": {
+    "title": "Please select your language",
+    "subtitle": "言語を選択してください",
+    "ja": "日本語",
+    "en": "English",
+    "remember": "Your language choice will be remembered"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "KOBE / THAILAND / PAKISTAN",
+      "title": "Make the world happy, from Kobe.",
+      "subtitle": "Wholesale used clothing and leatherwear, plus OEM production. We leverage our production base in Pakistan and Thailand to deliver low-cost, small-lot, easy-to-use service.",
+      "cta": "See our business",
+      "ctaSecondary": "Contact us"
+    },
+    "slides": [
+      {
+        "tag": "USED CLOTHING",
+        "title": "Used Clothing Wholesale",
+        "body": "Pakistan is a major hub for used clothing gathered from Europe and the US. From vintage rarities to well-known brands, we offer custom remakes and resizing on request.",
+        "image": "/images/home-slide-1.png",
+        "href": "/business"
+      },
+      {
+        "tag": "LEATHER",
+        "title": "Leather Wholesale",
+        "body": "Pakistan is one of the world's leading producers of lamb leather. Our own factory keeps production in-house, delivering strong quality at a competitive cost.",
+        "image": "/images/home-slide-2.png",
+        "href": "/business"
+      },
+      {
+        "tag": "GLOBAL NETWORK",
+        "title": "A Trade Network Across 3 Countries",
+        "body": "Our head office in Kobe, an office in Bangkok, and our own factory in Karachi form a network connecting Japan, Thailand, and Pakistan.",
+        "image": "/images/home-slide-3.png",
+        "href": "/trading"
+      },
+      {
+        "tag": "OEM",
+        "title": "Small-Lot OEM Production",
+        "body": "Original production available from just 50 pieces. We support everything from planning and sampling to inspection, customs clearance, and delivery.",
+        "image": "/images/home-slide-4.png",
+        "href": "/oem"
+      },
+      {
+        "tag": "OUR MISSION",
+        "title": "Sharing the Joy of Production, Widely",
+        "body": "By basing production in regions affected by conflict and hardship, we create local jobs and fair trade opportunities while delivering real value to our customers in Japan.",
+        "image": "/images/home-slide-5.png",
+        "href": "/company"
+      },
+      {
+        "tag": "BRANDS",
+        "title": "A Wide Range Of Brands",
+        "body": "From household names to rare vintage finds, our used clothing lineup covers a broad and ever-changing range.",
+        "image": "/images/brands.png",
+        "href": "/business"
+      },
+      {
+        "tag": "LOGISTICS",
+        "title": "Two Warehouses In Kobe",
+        "body": "Our Nagata and Arino warehouses give us stable inventory management and fast, reliable shipping.",
+        "image": "/images/section-5.png",
+        "href": "/business"
+      },
+      {
+        "tag": "ONLINE STORE",
+        "title": "Also Live On Online Marketplaces",
+        "body": "Our products are available on Rakuten Ichiba and Yahoo! Shopping, reaching customers across Japan without a physical storefront.",
+        "image": "/images/section-6.png",
+        "href": "/contact"
+      }
+    ],
+    "highlightsTitle": "Why JTP Trading",
+    "highlights": [
+      {
+        "title": "A Compact Operation",
+        "body": "We keep production, wholesale, and retail in a simple, streamlined structure — fast, responsive, and free of unnecessary overhead.",
+        "image": "/images/section-1.png"
+      },
+      {
+        "title": "Low Cost, Small Lots",
+        "body": "Our production base in Pakistan lets us offer low costs and small minimum order quantities.",
+        "image": "/images/section-2.png"
+      },
+      {
+        "title": "Remake & Resize on Request",
+        "body": "Used clothing sourced from Europe and the US can be freely customized with distressing, washing, embroidery, dyeing, and printing.",
+        "image": "/images/section-3.png"
+      },
+      {
+        "title": "Reliable Quality Control",
+        "body": "An in-house factory means consistent quality control, from planning through final inspection and shipping.",
+        "image": "/images/section-4.png"
+      }
+    ],
+    "onlineStoreTitle": "Also Available Online",
+    "onlineStoreBody": "Our products are also available on Rakuten Ichiba and Yahoo! Shopping."
+  },
+  "business": {
+    "hero": {
+      "title": "Business",
+      "subtitle": "We keep production, wholesale, and retail as simple as possible."
+    },
+    "intro": "Under the concept of staying \"compact,\" JTP Trading's business rests on two pillars: used clothing wholesale and leather wholesale. Our production base in Pakistan lets us offer low costs, small lots, and easy-to-use service.",
+    "usedClothing": {
+      "tag": "USED CLOTHING WHOLESALE",
+      "title": "Used Clothing Wholesale",
+      "body": "Pakistan is a major collection point for used clothing — mountains of it gathered from the US and Europe. We handle everything from well-known brands to rare vintage finds, and offer custom remakes to your specification: distressing, washing, embroidery, dyeing, and printing.",
+      "images": [
+        "/images/usedclothingwholesale-slide-1.png",
+        "/images/usedclothingwholesale-slide-2.jpg",
+        "/images/usedclothingwholesale-slide-3.jpg",
+        "/images/usedclothingwholesale-slide-4.jpg",
+        "/images/usedclothingwholesale-slide-5.jpg",
+        "/images/usedclothingwholesale-slide-6.jpg"
+      ]
+    },
+    "leather": {
+      "tag": "LEATHER WHOLESALE",
+      "title": "Leather Wholesale",
+      "body": "Pakistan's thriving livestock industry makes it one of the world's premier sources of lamb leather. Production at our own local factory keeps costs down without compromising quality. We work with riders jackets, bags, and more, across lambskin, suede, cowhide, goat leather, and faux leather.",
+      "images": [
+        "/images/leatherwholesale-slide-1.png",
+        "/images/leatherwholesale-slide-2.jpg",
+        "/images/leatherwholesale-slide-3.jpg",
+        "/images/leatherwholesale-slide-4.jpg",
+        "/images/leatherwholesale-slide-5.jpg",
+        "/images/leatherwholesale-slide-6.jpg"
+      ]
+    },
+    "infrastructureTitle": "Logistics & Facilities",
+    "infrastructure": "We operate two warehouses in Hyogo Prefecture — Nagata and Arino — alongside our Thailand and Pakistan offices, which serve as bases for OEM production and sourcing.",
+    "brandsTitle": "Brands We Carry",
+    "brandsBody": "From household names to rare vintage finds, we handle a wide range of used clothing brands."
+  },
+  "trading": {
+    "hero": {
+      "title": "Global Operations",
+      "subtitle": "Japan, Thailand, Pakistan — a trade network across three countries."
+    },
+    "intro": "From our head office in Kobe, JTP Trading works alongside our offices in Thailand and Pakistan to handle sourcing, production, and sales of used clothing and leatherwear from end to end.",
+    "countries": [
+      {
+        "flag": "/images/japan.png",
+        "name": "Japan",
+        "role": "Head Office — Wholesale & Retail",
+        "address": "5F Daiichi Marushika Bldg, 2-3-1 Kaguracho, Nagata-ku, Kobe, Hyogo 653-0836",
+        "body": "Our Kobe head office handles wholesale and retail sales of used clothing and leather items, primarily through online channels."
+      },
+      {
+        "flag": "/images/thailand.png",
+        "name": "Thailand",
+        "role": "KOBE BOEKI (Bangkok Office)",
+        "address": "88/7 Moo 6 Lampakchee, Nongchock, Bangkok 10530",
+        "body": "Located in the IEAT Free Zone, our Bangkok office wholesales used clothing gathered from Europe, the US, and across Asia, within a zone built for export-oriented operations."
+      },
+      {
+        "flag": "/images/pakistan.png",
+        "name": "Pakistan",
+        "role": "Karachi Factory",
+        "address": "Plot 36/8, Sector 15, Korangi Industrial Area, Karachi",
+        "body": "Our own in-house factory produces leather goods, enabling high-quality, cost-effective original products — including small-lot OEM orders."
+      }
+    ]
+  },
+  "oem": {
+    "hero": {
+      "title": "OEM Production",
+      "subtitle": "From planning to customs clearance and delivery — one-stop OEM at our own factory."
+    },
+    "intro": "By handling planning, production, and sales entirely in-house, JTP Trading delivers high-quality, original products at low cost. We support the full process: product planning, sampling, quality inspection, shipping to Japan, customs clearance, and final delivery.",
+    "minOrderTitle": "Minimum Order",
+    "minOrderBody": "We accept orders from as few as 50 pieces per style, available in 2 sizes and 2 colors. Custom colorways are also available starting at 50 pieces.",
+    "capabilitiesTitle": "What We Produce",
+    "leatherCapability": {
+      "title": "Leather Items",
+      "body": "Riders jackets, bags, and fully custom leather goods, across lambskin, suede, cowhide, goat leather, and faux leather.",
+      "images": ["/images/leatheritem-slide-1.png", "/images/leatheritem-slide-2.jpg", "/images/leatheritem-slide-3.jpg"]
+    },
+    "remakeCapability": {
+      "title": "Vintage Remakes",
+      "body": "Denim, military pieces, t-shirts, and knitwear — freely customizable with distressing, washing, embroidery, dyeing, and printing.",
+      "images": ["/images/usedremakeitem-slide-1.png", "/images/usedremakeitem-slide-2.jpg", "/images/usedremakeitem-slide-3.jpg"]
+    },
+    "processTitle": "How It Works",
+    "process": [
+      { "step": "01", "title": "Planning & Consultation", "body": "We discuss materials and design direction together and shape the initial plan." },
+      { "step": "02", "title": "Sampling & Quotes", "body": "Review the sample and quote, and once approved, we move into full production." },
+      { "step": "03", "title": "Production & Inspection", "body": "Production happens at our own factory, with quality inspection before shipping." },
+      { "step": "04", "title": "Customs & Delivery", "body": "We handle shipping to Japan and customs clearance, delivering the finished goods to you." }
+    ]
+  },
+  "company": {
+    "hero": {
+      "title": "Company",
+      "subtitle": "Make the world happy, from Kobe."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "body": "Pakistan, where we base our production, is home to people affected by conflict and hardship. Through local job creation and fair trade, we aim to support economic independence in these communities while delivering real value to our customers in Japan — sharing the joy of production as widely as we can."
+    },
+    "message": {
+      "title": "A Message From Our President",
+      "body": "We insist on small-lot production because we want to share the joy of making things with as many people as possible. We'll keep working carefully, one step at a time, to deliver happiness to our customers at a fair price.",
+      "name": "Shinobu Kanbe, President",
+      "signatureImage": "/images/sign.png"
+    },
+    "overviewTitle": "Company Profile",
+    "overview": [
+      { "label": "Company Name", "value": "JTP Trading Co., Ltd." },
+      { "label": "Representative", "value": "Shinobu Kanbe" },
+      { "label": "Head Office", "value": "5F Daiichi Marushika Bldg, 2-3-1 Kaguracho, Nagata-ku, Kobe, Hyogo 653-0836, Japan" },
+      { "label": "Phone", "value": "078-646-8077 (10:00-18:00, closed Sat/Sun/holidays)" },
+      { "label": "Business", "value": "Used clothing & leatherwear wholesale, OEM production, import/export trading" },
+      { "label": "Overseas Offices", "value": "Bangkok, Thailand / Karachi, Pakistan" }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "For inquiries about used clothing wholesale, leather wholesale, or OEM production, please use the form below."
+    },
+    "intro": "Please fill in the required fields below and submit the form. A member of our team will review your inquiry and get back to you — please note that response times may vary.",
+    "form": {
+      "name": "Name",
+      "furigana": "Furigana",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "companyOptional": "Company Name (optional)",
+      "email": "Email Address",
+      "message": "Message",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "required": "Required",
+      "optional": "Optional",
+      "successTitle": "Your inquiry has been sent",
+      "successBody": "Thank you for reaching out. A member of our team will review your message and get back to you soon.",
+      "errorTitle": "Something went wrong",
+      "errorBody": "Please try again in a moment, or reach us by phone.",
+      "validation": {
+        "required": "This field is required",
+        "email": "Please enter a valid email address"
+      }
+    },
+    "directTitle": "Prefer to call?",
+    "hoursNote": "Hours: 10:00-18:00 (Closed Sat, Sun & Holidays)"
+  },
+  "footer": {
+    "companyName": "JTP Trading Co., Ltd.",
+    "address": "5F Daiichi Marushika Bldg, 2-3-1 Kaguracho, Nagata-ku, Kobe, Hyogo 653-0836, Japan",
+    "rights": "All Rights Reserved.",
+    "onlineStores": "Online Stores",
+    "followUs": "Follow Us"
+  }
+}

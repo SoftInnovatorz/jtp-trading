@@ -1,0 +1,285 @@
+{
+  "common": {
+    "seeMore": "もっと見る",
+    "viewOnMap": "Googleマップで見る"
+  },
+  "meta": {
+    "siteName": "有限会社 JTPトレーディング",
+    "titleSuffix": "JTPトレーディング",
+    "home": { "title": "有限会社JTPトレーディング｜古着・レザー卸売、OEM生産", "description": "JTPトレーディングは神戸を拠点に、パキスタン・タイの生産背景を活かした古着・レザーウェアの卸売とOEM生産を行っています。低コスト・小ロットに対応。" },
+    "business": { "title": "事業内容｜古着卸売・レザー卸売", "description": "パキスタンから集まる古着、ラム革を使ったレザー製品の卸売事業をご紹介します。リメイク・リサイズにも対応。" },
+    "trading": { "title": "海外事業｜日本・タイ・パキスタン3拠点体制", "description": "神戸本社、タイ・バンコクオフィス、パキスタン・カラチの自社工場。3カ国をつなぐ国際貿易ネットワークをご紹介します。" },
+    "oem": { "title": "OEM生産｜レザー・古着リメイクの小ロット生産", "description": "50着からのOEM小ロット生産に対応。企画から検品・通関・納品までワンストップでサポートします。" },
+    "company": { "title": "会社概要｜有限会社JTPトレーディング", "description": "神戸から世界を幸せに。JTPトレーディングの企業理念、代表メッセージ、会社概要をご紹介します。" },
+    "contact": { "title": "お問い合わせ", "description": "古着卸売・レザー卸売・OEM生産に関するお問い合わせはこちらから。" }
+  },
+  "nav": {
+    "home": "ホーム",
+    "business": "事業内容",
+    "trading": "海外事業",
+    "oem": "OEM",
+    "company": "会社概要",
+    "contact": "お問い合わせ",
+    "onlineStore": "オンラインストア"
+  },
+  "header": {
+    "phone": "078-646-8077",
+    "hours": "10:00-18:00（土日祝休業）",
+    "tagline": "テキスタイル＆レザーアパレル専門商社"
+  },
+  "languagePopup": {
+    "title": "言語を選択してください",
+    "subtitle": "Please select your language",
+    "ja": "日本語",
+    "en": "English",
+    "remember": "選択した言語は保存されます"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "KOBE / THAILAND / PAKISTAN",
+      "title": "神戸から、世界を幸せに。",
+      "subtitle": "古着・レザーウェアの卸売とOEM生産。パキスタンとタイの生産背景を活かし、低コストかつ小ロットで、使いやすいサービスを提供しています。",
+      "cta": "事業内容を見る",
+      "ctaSecondary": "お問い合わせ"
+    },
+    "slides": [
+      {
+        "tag": "USED CLOTHING",
+        "title": "古着卸売",
+        "body": "パキスタンは欧米から集まる古着の一大集積地。ヴィンテージから定番ブランドまで、豊富な古着をリメイク・リサイズしてお届けします。",
+        "image": "/images/home-slide-1.png",
+        "href": "/business"
+      },
+      {
+        "tag": "LEATHER",
+        "title": "レザーウェア卸売",
+        "body": "畜産が盛んなパキスタンは世界有数のラム革産地。自社工場での一貫生産により、高品質・低価格を実現しています。",
+        "image": "/images/home-slide-2.png",
+        "href": "/business"
+      },
+      {
+        "tag": "GLOBAL NETWORK",
+        "title": "3カ国をつなぐ貿易網",
+        "body": "神戸本社、タイ・バンコクオフィス、パキスタン・カラチの自社工場。日本・タイ・パキスタンをつなぐ独自のネットワークです。",
+        "image": "/images/home-slide-3.png",
+        "href": "/trading"
+      },
+      {
+        "tag": "OEM",
+        "title": "小ロットOEM生産",
+        "body": "50着からのオリジナル生産に対応。企画・サンプル・検品・通関・納品まで、ワンストップでサポートします。",
+        "image": "/images/home-slide-4.png",
+        "href": "/oem"
+      },
+      {
+        "tag": "OUR MISSION",
+        "title": "生産の喜びを、広く分かち合う",
+        "body": "紛争や災害の影響を受けた地域に生産拠点を置くことで、現地の雇用創出とフェアな取引を実現し、日本のお客様に価値をお届けします。",
+        "image": "/images/home-slide-5.png",
+        "href": "/company"
+      },
+      {
+        "tag": "BRANDS",
+        "title": "幅広いブランドを取り扱い",
+        "body": "有名ブランドからレアなヴィンテージアイテムまで、豊富な古着ラインナップをご用意しています。",
+        "image": "/images/brands.png",
+        "href": "/business"
+      },
+      {
+        "tag": "LOGISTICS",
+        "title": "神戸2拠点の自社倉庫",
+        "body": "長田倉庫・有野倉庫の2拠点体制により、安定した在庫管理とスピーディーな出荷を実現しています。",
+        "image": "/images/section-5.png",
+        "href": "/business"
+      },
+      {
+        "tag": "ONLINE STORE",
+        "title": "オンラインストアでも展開",
+        "body": "楽天市場・Yahoo!ショッピングでも商品を販売中。実店舗を持たずとも全国のお客様にお届けします。",
+        "image": "/images/section-6.png",
+        "href": "/contact"
+      }
+    ],
+    "highlightsTitle": "JTPトレーディングの強み",
+    "highlights": [
+      {
+        "title": "コンパクトな体制",
+        "body": "生産・卸・小売をシンプルな体制で行うことで、無駄のないスピーディーな対応を実現しています。",
+        "image": "/images/section-1.png"
+      },
+      {
+        "title": "低コスト・小ロット",
+        "body": "パキスタンの生産背景を活かすことで、低コストかつ小ロットからの発注に対応できます。",
+        "image": "/images/section-2.png"
+      },
+      {
+        "title": "リメイク・リサイズ対応",
+        "body": "欧米から集めた古着はダメージ加工、水洗い、刺繍、染色、プリントなど自由にアレンジ可能です。",
+        "image": "/images/section-3.png"
+      },
+      {
+        "title": "確かな品質管理",
+        "body": "自社工場だからこそできる、企画から検品・出荷までの一貫した品質管理体制です。",
+        "image": "/images/section-4.png"
+      }
+    ],
+    "onlineStoreTitle": "オンラインストアもご覧ください",
+    "onlineStoreBody": "楽天市場・Yahoo!ショッピングでも商品を販売しております。"
+  },
+  "business": {
+    "hero": {
+      "title": "事業内容",
+      "subtitle": "生産、卸、小売を極力シンプルな体制で行なっています。"
+    },
+    "intro": "JTPトレーディングは「コンパクト」をコンセプトに、古着卸売とレザーウェア卸売の2つの事業を柱としています。パキスタンの生産背景を活かすことで、低コストかつ小ロットを実現し、使いやすいサービスを提供しています。",
+    "usedClothing": {
+      "tag": "USED CLOTHING WHOLESALE",
+      "title": "古着卸売",
+      "body": "パキスタンは古着の一大集積地。アメリカ、ヨーロッパから集まったものすごい古着の山の中から、有名ブランドからレアなヴィンテージアイテムまで幅広く取り扱っています。ダメージ加工、水洗い、刺繍、染色、プリントなど、お客様のご要望に合わせたカスタムリメイクにも対応します。",
+      "images": [
+        "/images/usedclothingwholesale-slide-1.png",
+        "/images/usedclothingwholesale-slide-2.jpg",
+        "/images/usedclothingwholesale-slide-3.jpg",
+        "/images/usedclothingwholesale-slide-4.jpg",
+        "/images/usedclothingwholesale-slide-5.jpg",
+        "/images/usedclothingwholesale-slide-6.jpg"
+      ]
+    },
+    "leather": {
+      "tag": "LEATHER WHOLESALE",
+      "title": "レザーウェア卸売",
+      "body": "パキスタンは畜産が盛んな世界有数のラム革産地。現地工場での生産により、コストを抑えながらも確かな品質の商品をお届けします。ライダースジャケット、バッグなど、ラム革・スウェード・カウレザー・ゴートレザー・合成皮革まで幅広い素材に対応します。",
+      "images": [
+        "/images/leatherwholesale-slide-1.png",
+        "/images/leatherwholesale-slide-2.jpg",
+        "/images/leatherwholesale-slide-3.jpg",
+        "/images/leatherwholesale-slide-4.jpg",
+        "/images/leatherwholesale-slide-5.jpg",
+        "/images/leatherwholesale-slide-6.jpg"
+      ]
+    },
+    "infrastructureTitle": "物流・拠点体制",
+    "infrastructure": "兵庫県内に長田倉庫・有野倉庫の2拠点を保有するほか、タイ・パキスタンの現地オフィスがOEM生産や買い付けの拠点となっています。",
+    "brandsTitle": "取扱ブランド",
+    "brandsBody": "有名ブランドからレアなヴィンテージアイテムまで、幅広いブランドの古着を取り扱っています。"
+  },
+  "trading": {
+    "hero": {
+      "title": "海外事業",
+      "subtitle": "日本・タイ・パキスタン。3カ国をつなぐ独自の貿易ネットワーク。"
+    },
+    "intro": "JTPトレーディングは神戸本社を拠点に、タイ・パキスタンの2つの海外拠点と連携し、古着・レザーウェアの調達から生産、販売までを一貫して手掛けています。",
+    "countries": [
+      {
+        "flag": "/images/japan.png",
+        "name": "日本",
+        "role": "本社・卸売／小売",
+        "address": "〒653-0836 兵庫県神戸市長田区神楽町2-3-1 第一丸鹿ビル5F",
+        "body": "神戸本社では古着・レザーアイテムの卸売・小売販売を、主にインターネット通販を通じて行っています。"
+      },
+      {
+        "flag": "/images/thailand.png",
+        "name": "タイ",
+        "role": "KOBE BOEKI（バンコクオフィス）",
+        "address": "88/7 Moo 6 Lampakchee, Nongchock, Bangkok 10530",
+        "body": "IEAT Free Zone内に位置し、ヨーロッパ・アメリカ・アジア諸国から集まる古着の卸売を行っています。輸出向け製造に適した保税区域です。"
+      },
+      {
+        "flag": "/images/pakistan.png",
+        "name": "パキスタン",
+        "role": "カラチ自社工場",
+        "address": "Plot 36/8, Sector 15, Korangi Industrial Area, Karachi",
+        "body": "自社工場を保有し、レザー製品の生産を行っています。高品質・低価格でオリジナル商品の生産が可能で、小ロットのOEM生産にも対応します。"
+      }
+    ]
+  },
+  "oem": {
+    "hero": {
+      "title": "OEM生産",
+      "subtitle": "企画から製造、通関、納品まで。自社工場によるワンストップOEM。"
+    },
+    "intro": "JTPトレーディングは企画から生産、販売まですべてを自社で手掛けることで、高品質でオリジナリティのある商品を低価格で生産できます。製品の企画、サンプル依頼、品質検査、日本への出荷、通関、納品まで一貫してサポートします。",
+    "minOrderTitle": "最小ロット",
+    "minOrderBody": "1型50着から承っております（2サイズ・2カラー展開）。カラーオーダーも50着から対応可能です。",
+    "capabilitiesTitle": "対応アイテム",
+    "leatherCapability": {
+      "title": "レザーアイテム",
+      "body": "ライダースジャケット、バッグなど。ラム革、スウェード、カウレザー、ゴートレザー、合成皮革まで、幅広い素材でのフルカスタムに対応します。",
+      "images": ["/images/leatheritem-slide-1.png", "/images/leatheritem-slide-2.jpg", "/images/leatheritem-slide-3.jpg"]
+    },
+    "remakeCapability": {
+      "title": "ヴィンテージリメイク",
+      "body": "デニム、ミリタリーアイテム、Tシャツ、ニットなど。ダメージ加工、水洗い、刺繍、染色、プリントなど自由な加工が可能です。",
+      "images": ["/images/usedremakeitem-slide-1.png", "/images/usedremakeitem-slide-2.jpg", "/images/usedremakeitem-slide-3.jpg"]
+    },
+    "processTitle": "ご発注の流れ",
+    "process": [
+      { "step": "01", "title": "企画・サンプル相談", "body": "素材やデザインについてご相談いただき、企画を固めていきます。" },
+      { "step": "02", "title": "サンプル作成・お見積り", "body": "サンプルとお見積りをご確認いただき、内容を承認いただいた後に量産に入ります。" },
+      { "step": "03", "title": "生産・品質検査", "body": "自社工場にて生産を行い、出荷前に品質検査を実施します。" },
+      { "step": "04", "title": "通関・納品", "body": "日本への出荷、通関手続きを経て、お客様のもとへ納品いたします。" }
+    ]
+  },
+  "company": {
+    "hero": {
+      "title": "会社概要",
+      "subtitle": "神戸から世界を幸せに。"
+    },
+    "mission": {
+      "title": "私たちのミッション",
+      "body": "私たちが生産の拠点としているパキスタンには、紛争や災害により貧困に苦しむ人々がいます。現地での雇用創出とフェアな取引を通じて経済的な自立を後押しし、日本のお客様に価値をお届けすることで、生産の喜びを広く分かち合いたいと考えています。"
+    },
+    "message": {
+      "title": "代表メッセージ",
+      "body": "小ロットからの生産にこだわるのは、より多くの方と作る喜びを分かち合いたいから。適正な価格でお客様に幸せをお届けできるよう、これからも一つひとつ丁寧に、努力を積み重ねてまいります。",
+      "name": "代表取締役　幹戸　忍",
+      "signatureImage": "/images/sign.png"
+    },
+    "overviewTitle": "会社概要",
+    "overview": [
+      { "label": "会社名", "value": "有限会社 JTPトレーディング" },
+      { "label": "代表者", "value": "幹戸　忍" },
+      { "label": "本社所在地", "value": "〒653-0836 兵庫県神戸市長田区神楽町2-3-1 第一丸鹿ビル5F" },
+      { "label": "電話番号", "value": "078-646-8077（10:00-18:00　土日祝休業）" },
+      { "label": "事業内容", "value": "古着・レザーウェア卸売、OEM生産、輸出入貿易" },
+      { "label": "海外拠点", "value": "タイ（バンコク）／パキスタン（カラチ）" }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "title": "お問い合わせ",
+      "subtitle": "古着卸売・レザー卸売・OEM生産に関するお問い合わせは、下記フォームよりお気軽にご連絡ください。"
+    },
+    "intro": "お問い合わせは下記の入力フォームから必要事項をご入力の上、送信してください。内容を確認の上、担当者よりご連絡いたします。回答までお時間をいただく場合がございますので、あらかじめご了承ください。",
+    "form": {
+      "name": "お名前",
+      "furigana": "フリガナ",
+      "phone": "電話番号",
+      "company": "会社名",
+      "companyOptional": "会社名（任意）",
+      "email": "メールアドレス",
+      "message": "お問い合わせ内容",
+      "submit": "送信する",
+      "submitting": "送信中...",
+      "required": "必須",
+      "optional": "任意",
+      "successTitle": "お問い合わせを受け付けました",
+      "successBody": "お問い合わせいただきありがとうございます。内容を確認の上、担当者よりご連絡いたします。",
+      "errorTitle": "送信に失敗しました",
+      "errorBody": "お手数ですが、時間をおいて再度お試しいただくか、お電話にてお問い合わせください。",
+      "validation": {
+        "required": "この項目は必須です",
+        "email": "正しいメールアドレスを入力してください"
+      }
+    },
+    "directTitle": "お電話でのお問い合わせ",
+    "hoursNote": "受付時間：10:00-18:00（土日祝休業）"
+  },
+  "footer": {
+    "companyName": "有限会社 JTPトレーディング",
+    "address": "〒653-0836 兵庫県神戸市長田区神楽町2-3-1 第一丸鹿ビル5F",
+    "rights": "All Rights Reserved.",
+    "onlineStores": "オンラインストア",
+    "followUs": "フォローする"
+  }
+}
