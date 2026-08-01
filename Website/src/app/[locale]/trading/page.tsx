@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
 import { buildMetadata } from "@/lib/seo";
 import { googleMapsUrl } from "@/lib/maps";
 import { MapPinIcon } from "@/components/icons";
+import { JapanFlag, ThailandFlag, PakistanFlag } from "@/components/Flags";
 
 type Country = { flag: string; name: string; role: string; address: string; body: string };
+
+const FLAGS: Record<string, React.ComponentType<{ className?: string }>> = {
+  "/images/japan.png": JapanFlag,
+  "/images/thailand.png": ThailandFlag,
+  "/images/pakistan.png": PakistanFlag,
+};
 
 export async function generateMetadata({
   params,
@@ -39,26 +45,27 @@ export default async function TradingPage({
 
       <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6">
         <div className="grid gap-8 md:grid-cols-3">
-          {countries.map((c) => (
-            <div key={c.name} className="rounded-2xl border border-neutral-200 p-8">
-              <div className="relative h-8 w-12">
-                <Image src={c.flag} alt={c.name} fill className="object-contain object-left" />
+          {countries.map((c) => {
+            const Flag = FLAGS[c.flag];
+            return (
+              <div key={c.name} className="rounded-2xl border border-neutral-200 p-8">
+                {Flag && <Flag className="h-8 w-12" />}
+                <h3 className="mt-4 text-xl font-bold">{c.name}</h3>
+                <p className="mt-1 text-sm font-semibold text-amber-600">{c.role}</p>
+                <p className="mt-4 text-sm text-neutral-600">{c.body}</p>
+                <p className="mt-4 border-t border-neutral-100 pt-4 text-xs text-neutral-400">{c.address}</p>
+                <a
+                  href={googleMapsUrl(c.address)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600 hover:text-amber-700"
+                >
+                  <MapPinIcon className="h-3.5 w-3.5" />
+                  {tc("viewOnMap")}
+                </a>
               </div>
-              <h3 className="mt-4 text-xl font-bold">{c.name}</h3>
-              <p className="mt-1 text-sm font-semibold text-amber-600">{c.role}</p>
-              <p className="mt-4 text-sm text-neutral-600">{c.body}</p>
-              <p className="mt-4 border-t border-neutral-100 pt-4 text-xs text-neutral-400">{c.address}</p>
-              <a
-                href={googleMapsUrl(c.address)}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600 hover:text-amber-700"
-              >
-                <MapPinIcon className="h-3.5 w-3.5" />
-                {tc("viewOnMap")}
-              </a>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
     </>
