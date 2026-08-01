@@ -39,7 +39,7 @@ export default async function CompanyPage({
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-neutral-100">
-            <Image src="/images/mission.png" alt={t("mission.title")} fill className="object-cover" />
+            <Image src="/images/mission-new.jpg" alt={t("mission.title")} fill className="object-cover" />
           </div>
           <div>
             <h2 className="text-2xl font-bold sm:text-3xl">{t("mission.title")}</h2>
