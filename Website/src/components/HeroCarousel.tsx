@@ -18,7 +18,7 @@ type Slide = {
 export function HeroCarousel({ slides }: { slides: Slide[] }) {
   const t = useTranslations("home.hero");
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 5500, stopOnInteraction: false }),
+    Autoplay({ delay: 10000, stopOnInteraction: false }),
   ]);
   const [selected, setSelected] = useState(0);
 
