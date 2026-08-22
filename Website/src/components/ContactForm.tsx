@@ -87,15 +87,14 @@ export function ContactForm() {
         <Field id="name" label={t("name")} required error={fieldError(state.fieldErrors?.name)}>
           <input id="name" name="name" type="text" required className={inputClass} />
         </Field>
-        <Field id="furigana" label={t("furigana")} required error={fieldError(state.fieldErrors?.furigana)}>
-          <input id="furigana" name="furigana" type="text" required className={inputClass} />
-        </Field>
         <Field id="phone" label={t("phone")} required error={fieldError(state.fieldErrors?.phone)}>
           <input id="phone" name="phone" type="tel" required className={inputClass} />
         </Field>
-        <Field id="company" label={t("companyOptional")} error={fieldError(state.fieldErrors?.company)}>
-          <input id="company" name="company" type="text" className={inputClass} />
-        </Field>
+        <div className="sm:col-span-2">
+          <Field id="company" label={t("companyOptional")} error={fieldError(state.fieldErrors?.company)}>
+            <input id="company" name="company" type="text" className={inputClass} />
+          </Field>
+        </div>
       </div>
 
       <Field id="email" label={t("email")} required error={fieldError(state.fieldErrors?.email)}>

@@ -7,7 +7,6 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const ContactSchema = z.object({
   name: z.string().min(1, "required"),
-  furigana: z.string().min(1, "required"),
   phone: z.string().min(1, "required"),
   company: z.string().optional(),
   email: z.string().min(1, "required").regex(EMAIL_RE, "email"),
@@ -41,7 +40,7 @@ export async function submitContactForm(
     return { status: "error", fieldErrors };
   }
 
-  const { name, furigana, phone, company, email, message } = parsed.data;
+  const { name, phone, company, email, message } = parsed.data;
 
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.CONTACT_EMAIL_TO;
@@ -63,7 +62,6 @@ export async function submitContactForm(
       subject: `[JTP Trading Website] New inquiry from ${name}`,
       text: [
         `Name: ${name}`,
-        `Furigana: ${furigana}`,
         `Phone: ${phone}`,
         `Company: ${company || "-"}`,
         `Email: ${email}`,

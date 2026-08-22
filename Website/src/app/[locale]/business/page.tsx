@@ -26,6 +26,7 @@ export default async function BusinessPage({
   const t = await getTranslations("business");
   const tc = await getTranslations("common");
   const usedImages = t.raw("usedClothing.images") as string[];
+  const remakeImages = t.raw("remake.images") as string[];
   const leatherImages = t.raw("leather.images") as string[];
 
   return (
@@ -69,6 +70,22 @@ export default async function BusinessPage({
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+        <div className="grid items-center gap-10 lg:grid-cols-2">
+          <div>
+            <p className="text-xs font-semibold tracking-[0.2em] text-amber-600">{t("remake.tag")}</p>
+            <h2 className="mt-2 text-2xl font-bold sm:text-3xl">{t("remake.title")}</h2>
+            <p className="mt-4 text-neutral-600">{t("remake.body")}</p>
+          </div>
+          <ImageGrid
+            images={remakeImages}
+            alt={t("remake.title")}
+            linkTo={siteConfig.ecommerceUrl}
+            linkLabel={tc("seeMore")}
+          />
         </div>
       </section>
 

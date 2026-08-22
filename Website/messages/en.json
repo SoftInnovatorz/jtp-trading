@@ -36,7 +36,7 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "KOBE / THAILAND / PAKISTAN",
+      "eyebrow": "JAPAN / THAILAND / PAKISTAN",
       "title": "Make the world happy, from Kobe.",
       "subtitle": "Wholesale used clothing and leatherwear, plus OEM production. We leverage our production base in Pakistan and Thailand to deliver low-cost, small-lot, easy-to-use service.",
       "cta": "See our business",
@@ -94,7 +94,7 @@
       },
       {
         "tag": "ONLINE STORE",
-        "title": "Also Live On Online Marketplaces",
+        "title": "Also Available on Online Marketplaces",
         "body": "Our products are available on Rakuten Ichiba and Yahoo! Shopping, reaching customers across Japan without a physical storefront.",
         "image": "/images/section-6.png",
         "href": "/contact"
@@ -131,10 +131,10 @@
       "title": "Business",
       "subtitle": "We keep production, wholesale, and retail as simple as possible."
     },
-    "intro": "Under the concept of staying \"compact,\" JTP Trading's business rests on two pillars: used clothing wholesale and leather wholesale. Our production base in Pakistan lets us offer low costs, small lots, and easy-to-use service.",
+    "intro": "Under the concept of staying \"compact,\" JTP Trading's business rests on three pillars: used clothing wholesale, remake clothing service, and leather wholesale. Our production base in Pakistan lets us offer low costs, small lots, and easy-to-use service.",
     "usedClothing": {
       "tag": "USED CLOTHING WHOLESALE",
-      "title": "Used Clothing Wholesale",
+      "title": "Used Clothing Wholesaler",
       "body": "Pakistan is a major collection point for used clothing — mountains of it gathered from the US and Europe. We handle everything from well-known brands to rare vintage finds, and offer custom remakes to your specification: distressing, washing, embroidery, dyeing, and printing.",
       "images": [
         "/images/usedclothingwholesale-slide-1.png",
@@ -145,9 +145,19 @@
         "/images/usedclothingwholesale-slide-6.jpg"
       ]
     },
+    "remake": {
+      "tag": "REMAKE CLOTHING SERVICE",
+      "title": "Remake Clothing Service",
+      "body": "Every piece can be tailored to your specification — distressing, washing, embroidery, dyeing, printing, and resizing — turning standard denim, military gear, tees, and knitwear into a fully original product line.",
+      "images": [
+        "/images/usedremakeitem-slide-1.png",
+        "/images/usedremakeitem-slide-2.jpg",
+        "/images/usedremakeitem-slide-3.jpg"
+      ]
+    },
     "leather": {
       "tag": "LEATHER WHOLESALE",
-      "title": "Leather Wholesale",
+      "title": "Leather Garment and Leather Product Wholesaler",
       "body": "Pakistan's thriving livestock industry makes it one of the world's premier sources of lamb leather. Production at our own local factory keeps costs down without compromising quality. We work with riders jackets, bags, and more, across lambskin, suede, cowhide, goat leather, and faux leather.",
       "images": [
         "/images/leatherwholesale-slide-1.png",
@@ -168,7 +178,7 @@
       "title": "Global Operations",
       "subtitle": "Japan, Thailand, Pakistan — a trade network across three countries."
     },
-    "intro": "From our head office in Kobe, JTP Trading works alongside our offices in Thailand and Pakistan to handle sourcing, production, and sales of used clothing and leatherwear from end to end.",
+    "intro": "Our head office in Kobe, JTP Trading works alongside our offices in Thailand and Pakistan to handle sourcing, production, and sales of used clothing and leatherwear from end to end.",
     "countries": [
       {
         "flag": "/images/japan.png",
@@ -223,11 +233,11 @@
   "company": {
     "hero": {
       "title": "Company",
-      "subtitle": "Make the world happy, from Kobe."
+      "subtitle": "Make the world happy, from Kobe/Japan."
     },
     "mission": {
       "title": "Our Mission",
-      "body": "Pakistan, where we base our production, is home to people affected by conflict and hardship. Through local job creation and fair trade, we aim to support economic independence in these communities while delivering real value to our customers in Japan — sharing the joy of production as widely as we can."
+      "body": "We build our business on skilled hands in Pakistan — a country with deep roots in leatherwork and textile craft. By creating stable local jobs and trading fairly, we help that skill translate into real economic independence, while bringing genuine value to our customers in Japan. That's what it means to share the joy of production."
     },
     "message": {
       "title": "A Message From Our President",
@@ -248,12 +258,11 @@
   "contact": {
     "hero": {
       "title": "Contact Us",
-      "subtitle": "For inquiries about used clothing wholesale, leather wholesale, or OEM production, please use the form below."
+      "subtitle": "For inquiries about used clothing wholesale, remake clothing service, leather wholesale, or OEM production, please use the form below."
     },
     "intro": "Please fill in the required fields below and submit the form. A member of our team will review your inquiry and get back to you — please note that response times may vary.",
     "form": {
       "name": "Name",
-      "furigana": "Furigana",
       "phone": "Phone Number",
       "company": "Company Name",
       "companyOptional": "Company Name (optional)",
