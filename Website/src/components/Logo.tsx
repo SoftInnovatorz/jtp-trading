@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-export function LogoMark({ className = "", dark = false }: { className?: string; dark?: boolean }) {
+export function LogoMark({ className = "" }: { className?: string }) {
   return (
     <Image
-      src={dark ? "/images/logo-mark-white.png" : "/images/logo-mark.png"}
+      src="/images/logo-shield.png"
       alt="JTP Trading"
-      width={99}
-      height={68}
-      className={`h-9 w-auto shrink-0 object-contain sm:h-10 ${className}`}
+      width={165}
+      height={174}
+      className={`h-10 w-auto shrink-0 object-contain sm:h-11 ${className}`}
       priority
     />
   );
@@ -17,22 +17,18 @@ export function LogoLockup({
   title,
   subtitle,
   className = "",
-  dark = false,
 }: {
   title: string;
   subtitle?: string;
   className?: string;
-  dark?: boolean;
 }) {
   return (
     <span className={`flex items-center gap-3 ${className}`}>
-      <LogoMark dark={dark} />
+      <LogoMark />
       <span className="flex flex-col leading-tight">
-        <span className={`text-lg font-bold tracking-wide ${dark ? "text-white" : ""}`}>{title}</span>
+        <span className="text-lg font-bold tracking-wide">{title}</span>
         {subtitle && (
-          <span className={`text-[8.5px] uppercase tracking-[0.15em] ${dark ? "text-white/40" : "text-neutral-400"}`}>
-            {subtitle}
-          </span>
+          <span className="text-[8.5px] uppercase tracking-[0.15em] text-neutral-400">{subtitle}</span>
         )}
       </span>
     </span>

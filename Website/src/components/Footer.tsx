@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/config/site";
-import { LogoLockup } from "./Logo";
+import { LogoMark } from "./Logo";
 import { FacebookIcon, InstagramIcon, TwitterIcon, PhoneIcon } from "./icons";
 
 export function Footer() {
@@ -15,7 +15,15 @@ export function Footer() {
     <footer className="border-t-2 border-amber-500 bg-neutral-950 text-white/60">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-[1.3fr_1fr_1fr] md:gap-8">
         <div className="md:pr-8">
-          <LogoLockup title="JTP TRADING" subtitle={h("tagline")} dark />
+          <div className="flex items-center gap-3">
+            <span className="flex shrink-0 items-center justify-center rounded-xl bg-white p-2">
+              <LogoMark className="h-9 sm:h-10" />
+            </span>
+            <span className="flex flex-col leading-tight">
+              <span className="text-lg font-bold tracking-wide text-white">JTP TRADING</span>
+              <span className="text-[8.5px] uppercase tracking-[0.15em] text-white/40">{h("tagline")}</span>
+            </span>
+          </div>
           <p className="mt-5 text-sm font-medium text-white/90">{f("companyName")}</p>
           <p className="mt-1.5 max-w-[26ch] text-sm leading-relaxed">{f("address")}</p>
           <a

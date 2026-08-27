@@ -49,7 +49,7 @@ export default async function LocaleLayout({
     name: "JTP Trading Co., Ltd.",
     alternateName: "有限会社 JTPトレーディング",
     url: SITE_URL,
-    logo: `${SITE_URL}/images/logo-mark.png`,
+    logo: `${SITE_URL}/images/logo-shield.png`,
     telephone: "+81-78-646-8077",
     address: {
       "@type": "PostalAddress",

@@ -133,7 +133,7 @@
     },
     "intro": "JTPトレーディングは「コンパクト」をコンセプトに、古着卸売・衣類リメイクサービス・レザーウェア卸売の3つの事業を柱としています。パキスタンの生産背景を活かすことで、低コストかつ小ロットを実現し、使いやすいサービスを提供しています。",
     "usedClothing": {
-      "tag": "USED CLOTHING WHOLESALE",
+      "tag": "USED CLOTHING WHOLESALER",
       "title": "古着卸売",
       "body": "パキスタンは古着の一大集積地。アメリカ、ヨーロッパから集まったものすごい古着の山の中から、有名ブランドからレアなヴィンテージアイテムまで幅広く取り扱っています。ダメージ加工、水洗い、刺繍、染色、プリントなど、お客様のご要望に合わせたカスタムリメイクにも対応します。",
       "images": [
@@ -146,17 +146,20 @@
       ]
     },
     "remake": {
-      "tag": "REMAKE & RESIZE",
+      "tag": "REMAKE GARMENTS WHOLESALER",
       "title": "衣類リメイクサービス",
       "body": "デニム、ミリタリーアイテム、Tシャツ、ニットなど、あらゆる古着をダメージ加工・水洗い・刺繍・染色・プリント・サイズ直しなど、ご要望に合わせて自由にアレンジ。定番の古着を、世界に一つだけのオリジナル商品に仕上げます。",
       "images": [
-        "/images/usedremakeitem-slide-1.png",
-        "/images/usedremakeitem-slide-2.jpg",
-        "/images/usedremakeitem-slide-3.jpg"
+        "/images/remake-denim-skirt-blue-back.jpg",
+        "/images/remake-denim-skirt-white-front.jpg",
+        "/images/remake-band-tee-dress-front.jpg",
+        "/images/remake-vintage-patchwork-skirt-1.jpg",
+        "/images/remake-denim-skirt-blue-side.jpg",
+        "/images/remake-vintage-patchwork-skirt-2.jpg"
       ]
     },
     "leather": {
-      "tag": "LEATHER WHOLESALE",
+      "tag": "LEATHER WHOLESALER",
       "title": "レザーガーメント・レザー製品卸売",
       "body": "パキスタンは畜産が盛んな世界有数のラム革産地。現地工場での生産により、コストを抑えながらも確かな品質の商品をお届けします。ライダースジャケット、バッグなど、ラム革・スウェード・カウレザー・ゴートレザー・合成皮革まで幅広い素材に対応します。",
       "images": [
@@ -218,9 +221,9 @@
       "images": ["/images/leatheritem-slide-1.png", "/images/leatheritem-slide-2.jpg", "/images/leatheritem-slide-3.jpg"]
     },
     "remakeCapability": {
-      "title": "ヴィンテージリメイク",
+      "title": "衣類リメイク",
       "body": "デニム、ミリタリーアイテム、Tシャツ、ニットなど。ダメージ加工、水洗い、刺繍、染色、プリントなど自由な加工が可能です。",
-      "images": ["/images/usedremakeitem-slide-1.png", "/images/usedremakeitem-slide-2.jpg", "/images/usedremakeitem-slide-3.jpg"]
+      "images": ["/images/remake-denim-skirt-white-back.jpg", "/images/remake-band-tee-dress-both.jpg", "/images/remake-denim-skirt-blue-front.jpg"]
     },
     "processTitle": "ご発注の流れ",
     "process": [

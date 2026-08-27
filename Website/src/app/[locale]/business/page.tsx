@@ -99,7 +99,13 @@ export default async function BusinessPage({
             <h3 className="text-lg font-bold">{t("brandsTitle")}</h3>
             <p className="mt-3 text-sm text-neutral-600">{t("brandsBody")}</p>
             <div className="relative mt-4 h-16 w-full">
-              <Image src="/images/brands.png" alt={t("brandsTitle")} fill className="object-contain object-left" />
+              <Image
+                src="/images/brands.png"
+                alt={t("brandsTitle")}
+                fill
+                sizes="(min-width: 640px) 320px, 90vw"
+                className="object-contain object-left"
+              />
             </div>
           </div>
         </div>

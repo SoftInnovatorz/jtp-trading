@@ -39,7 +39,13 @@ export default async function CompanyPage({
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-neutral-100">
-            <Image src="/images/mission-new.jpg" alt={t("mission.title")} fill className="object-cover" />
+            <Image
+              src="/images/mission-new.jpg"
+              alt={t("mission.title")}
+              fill
+              sizes="(min-width: 1024px) 580px, 100vw"
+              className="object-cover"
+            />
           </div>
           <div>
             <h2 className="text-2xl font-bold sm:text-3xl">{t("mission.title")}</h2>
@@ -52,14 +58,26 @@ export default async function CompanyPage({
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div className="lg:order-2 relative aspect-[4/3] overflow-hidden rounded-2xl bg-neutral-100">
-              <Image src="/images/message.png" alt={t("message.title")} fill className="object-cover" />
+              <Image
+                src="/images/message.png"
+                alt={t("message.title")}
+                fill
+                sizes="(min-width: 1024px) 580px, 100vw"
+                className="object-cover"
+              />
             </div>
             <div className="lg:order-1">
               <h2 className="text-2xl font-bold sm:text-3xl">{t("message.title")}</h2>
               <p className="mt-4 text-neutral-600">{t("message.body")}</p>
               <div className="mt-6 flex items-center gap-4">
                 <div className="relative h-12 w-28">
-                  <Image src={t("message.signatureImage")} alt={t("message.name")} fill className="object-contain object-left" />
+                  <Image
+                    src={t("message.signatureImage")}
+                    alt={t("message.name")}
+                    fill
+                    sizes="112px"
+                    className="object-contain object-left"
+                  />
                 </div>
                 <p className="text-sm font-semibold text-neutral-800">{t("message.name")}</p>
               </div>
