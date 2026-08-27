@@ -36,9 +36,11 @@ Without `RESEND_API_KEY`/`CONTACT_EMAIL_TO` set, the contact form will render an
 
 All page copy lives in `messages/ja.json` and `messages/en.json`. The English copy is a natural (not word-for-word) translation reconstructed from the old site — have the client review both languages before launch.
 
-## Future e-commerce site
+## Product image galleries (`ImageGrid`)
 
-Product photos on the Business and OEM pages have a "See More" hover link, meant to point at a future e-commerce storefront. Right now `siteConfig.ecommerceUrl` (`src/config/site.ts`) is set to `"#"` as a placeholder — once that site exists, update that one value and every "See More" link across the site will point there.
+Product photos on the Business and OEM pages (`src/components/ImageGrid.tsx`) are clickable thumbnails that open a full-screen lightbox — enlarged image, prev/next arrows, close button, click-outside/Escape/arrow-key support. The lightbox also carries a "See More" button pointing at a future e-commerce storefront. Right now `siteConfig.ecommerceUrl` (`src/config/site.ts`) is set to `"#"` as a placeholder — once that site exists, update that one value and every "See More" link across the site will point there.
+
+`ImageGrid` is a client component (`"use client"`); the enlarge/close/nav labels live under `common` in `messages/ja.json` / `messages/en.json` (`enlarge`, `closeImage`, `previousImage`, `nextImage`).
 
 ## Project structure
 

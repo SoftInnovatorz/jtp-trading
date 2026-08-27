@@ -1,7 +1,11 @@
 {
   "common": {
     "seeMore": "もっと見る",
-    "viewOnMap": "Googleマップで見る"
+    "viewOnMap": "Googleマップで見る",
+    "enlarge": "クリックで拡大",
+    "closeImage": "閉じる",
+    "previousImage": "前の画像",
+    "nextImage": "次の画像"
   },
   "meta": {
     "siteName": "有限会社 JTPトレーディング",

@@ -64,3 +64,28 @@ export function ArrowRightIcon(props: React.SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+export function ChevronLeftIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M15 6l-6 6 6 6" />
+    </svg>
+  );
+}
+
+export function ChevronRightIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M9 6l6 6-6 6" />
+    </svg>
+  );
+}
+
+export function ZoomIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <circle cx="11" cy="11" r="6.5" />
+      <path d="M20 20l-4.35-4.35M11 8.5v5M8.5 11h5" />
+    </svg>
+  );
+}
